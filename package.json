@@ -1,9 +1,9 @@
 {
-  "name": "matrix-theme",
-  "displayName": "Matrix Theme",
+  "name": "matrix-theme-k",
+  "displayName": "Matrix Theme K",
   "description": "Visual Studio Code color theme inspired by \"The Matrix\" film.",
-  "version": "0.1.2",
-  "publisher": "UstymUkhman",
+  "version": "0.1.3",
+  "publisher": "Knightingal",
   "license": "MIT",
   "homepage": "https://github.com/UstymUkhman/matrix-theme/blob/master/README.md",
   "bugs": {
@@ -36,10 +36,12 @@
   ],
   "icon": "images/icon.png",
   "contributes": {
-    "themes": [{
-      "label": "Matrix",
-      "uiTheme": "vs-dark",
-      "path": "./themes/Matrix-color-theme.json"
-    }]
+    "themes": [
+      {
+        "label": "Matrix",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Matrix-color-theme.json"
+      }
+    ]
   }
 }
